@@ -412,7 +412,157 @@ configurar margem, largura e etc cois q o inline não perite) -->
         </ul>
     </div>
 
+    <br>
+    <br> ---------------Barras de Navegação --------------------
+    <!-- Navegação
+    Tipos de navegação:
+        nav-pills
+        nav-tabs
+    opções de alinhamento: 
+        justify-content-center 
+        justify-content-end
+        flex-column
+<img src="https://i.imgur.com/oj7fBkN.png">
+    -->
+    <h2>Navegação simples / abas</h2>
+    <ul class="nav nav-tabs justify-content-center">
+        <li class="nav-item">
+            <a href="" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Sobre</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link active">Serviços</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link disabled">link 4</a>
+        </li>
+    </ul>
+    ---------------------------------------------
     <br><br>
+
+    <h2>Barra de navegação simples</h2>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Logo -->
+        <a href="#" class="navbar-brand">Chalé Hotel</a>
+
+        <!-- navegacao -->
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Serviços</a>
+            </li>
+        </ul>
+    </nav>
+    ---------------------------------------------
+    <br><br>
+    <!-- Inicio - Menu Hamburguer -->
+    <h2>Barra de navegação com menu responsivo</h2>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <!-- Logo -->
+        <a href="" class="navbar-brand">Chalé Hotel</a>
+        <!-- Menu Hamburguer -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuhamburger" aria-controls="menuhamburger" aria-expanded="false" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navegacao -->
+        <div class="collapse navbar-collapse" id="menuhamburger">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Serviços</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Fim -  Menu Hamburguer -->
+    ---------------------------------------------
+    <br><br>
+
+    <h2>Barra de navegação com formulário</h2>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-warning">
+
+        <!-- Logo -->
+        <a href="" class="navbar-brand">Chalé Hotel</a>
+
+        <!-- Menu Hamburguer -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuhamburger2" aria-controls="menuhamburger2" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navegacao -->
+        <div class="collapse navbar-collapse" id="menuhamburger2">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Serviços</a>
+                </li>
+            </ul>
+
+            <!-- Formulário -->
+            <form class="d-flex">
+                <input type="search" class="form-control me-2" aria-label="Pesquisar" placeholder="pesquisar...">
+                <button class="btn btn-outline-success" type="submit">ok</button>
+            </form>
+
+        </div>
+
+    </nav>
+    ---------------------------------------------
+    <br><br>
+
+    <h2>Barra de navegação com menu dropdown</h2>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+
+        <!-- Logo -->
+        <a href="" class="navbar-brand">Chalé Hotel</a>
+
+        <!-- Menu Hamburguer -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menudropdown" aria-controls="menudropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navegacao -->
+        <div class="collapse navbar-collapse" id="menudropdown">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Sobre</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" id="subMenuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Serviços</a>
+
+                    <div class="dropdown-menu" aria-labelledby="subMenuDropdown">
+                        <a href="" class="dropdown-item">Serviço 1</a>
+                        <a href="" class="dropdown-item">Serviço 2</a>
+                        <a href="" class="dropdown-item">Serviço 3</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <br><br>
+
 
 
 
