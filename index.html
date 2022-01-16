@@ -94,8 +94,8 @@
     <br>
 
     <!-- Alinhamentos -->
-    <p class="text-right">Direita</p>
-    <p class="text-left">Esquerda</p>
+    <p class="text-start">Direita</p>
+    <p class="text-end">Esquerda</p>
     <p class="text-center">Centralizado</p>
 
     <br>
@@ -136,6 +136,120 @@
 
     <br>
     <br>
+
+    <!-- Listas sem estilo -->
+    <ul class="list-unstyled">
+        <li class="display-1">Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <br>
+    <br>
+    <!-- Listas inline (elementos um ao lado do outro e não mais abaixo)-->
+    <ul class="list-inline">
+        <li class="list-inline-item display-1">Item 1</li>
+        <li class="list-inline-item">Item 2</li>
+        <li class="list-inline-item">Item 3</li>
+    </ul>
+
+    <br>
+    <br>
+    <!-- Alinhamento responsivo  class text-<tela>-<alinhamento>
+      tela: sm, md, lg, xl. - alinhamento: left, center, right.
+     --->
+    <p class="tela-sm-rigth">tela &gt;= 576px</p>
+    <!--Small SM-->
+    <p class="tela-md-rigth">tela &gt;= 768px</p>
+    <!--Mediu MD-->
+    <p class="tela-lg-rigth">tela &gt;= 992px</p>
+    <!--Large LG-->
+    <p class="tela-xl-rigth">tela &gt;= 1200px</p>
+    <!--Extra Large XL-->
+    <br>
+    <br>
+    <!-- Elementos de Bolocos para inline(d-line)-->
+    <h1 class="bg-success">01 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+    <p class="d-line bg-sucess">02 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <br>
+    <br>
+
+    <!-- Elementos inline para Bolocos -->
+    <span class="bg-success">01 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+    <span class="d-lock">02 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+    <br>
+    <br>
+    <!-- Elementos inline e Bolocos(assim podemos 
+configurar margem, largura e etc cois q o inline não perite) -->
+    <h3 class="bg-success d-inline-block">01 Lorem ipsum dolor.</h3>
+    <h3 class="bg-success">02 Lorem ipsum dolor.</h3>
+
+    <br>
+    <br> ---------------Elementos flutuantes------------------------
+    <br>
+
+    <!--Elementos flutuantes -->
+    <div class="clearfix">
+        <div class="float-start bg-success">Float Left</div>
+        <!--<div class="float-none bg-danger">Sem Float </div>-->
+        <div class="float-end bg-warning">Float Right</div>
+    </div>
+    <br>
+    <br>
+
+    <!--Elementos flutuantes 
+      fixed-top ou fixed-bottom -->
+    <h1 class=" fixed-bottom bg-danger">Titúlo Elementos fixo</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus.</p>
+    <br>
+    <br>
+    <!-- Float responsivo - float-<tela>-direção 
+        tela: sm, md, lg, xl. - direção: left, right.-->
+    <div class="float-sm-end">tela &gt;= 576px</div>
+    <!--Small SM-->
+    <div class="float-md-end">tela &gt;= 768px</div>
+    <!--Mediu MD-->
+    <div class="float-lg-end">tela &gt;= 992px</div>
+    <!--Large LG-->
+    <div class="float-xl-end">tela &gt;= 1200px</div>
+    <!--Extra Large XL-->
+
+    <br>
+    <br>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus.</p>
+
+    <br>
+    <br>
+
+    <ul class="list-inline bg-warning sticky-top">
+        <li class="list-inline-item">Item 1</li>
+        <li class="list-inline-item">Item 2</li>
+        <li class="list-inline-item">Item 3</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus.</p>
+
+    <br>
+    <br>
+
+    <h1 class="text-primary">Texto Primary</h1>
+    <h1 class="text-segundary">Texto segundary</h1>
+    <h1 class="text-success">Texto success</h1>
+    <h1 class="text-info">Texto info</h1>
+    <h1 class="text-warning">Texto warning</h1>
+    <h1 class="text-danger">Texto danger</h1>
+    <h1 class="text-light bg-dark">Texto light</h1>
+    <h1 class="text-dark">Texto dark</h1>
+    <h1 class="text-white bg-success">Texto white</h1>
+    <h1 class="text-black-50">Texto black 50</h1>
+    <h1 class="text-white bg-danger">Texto white</h1>
+    <!-- Pode ser aplicado em links também -->
+    <a href="#" class="text-success">Link success</a>
+
+    <br>
+    <br>
+
+
 
 
 
