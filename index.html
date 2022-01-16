@@ -461,7 +461,9 @@ configurar margem, largura e etc cois q o inline não perite) -->
         </ul>
     </nav>
     ---------------------------------------------
-    <br><br>
+    <br>
+    <br>
+
     <!-- Inicio - Menu Hamburguer -->
     <h2>Barra de navegação com menu responsivo</h2>
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
@@ -487,6 +489,7 @@ configurar margem, largura e etc cois q o inline não perite) -->
         </div>
     </nav>
     <!-- Fim -  Menu Hamburguer -->
+
     ---------------------------------------------
     <br><br>
 
@@ -561,17 +564,1352 @@ configurar margem, largura e etc cois q o inline não perite) -->
         </div>
 
     </nav>
+    <br><br> --------------- Cores ------------------
+    <!--Cores
+    opções: bg-primary, bg-secondary, bg-success, bg-info,
+    bg-warning, bg-danger, bg-light, bg-dark
+    -->
+    <h2>Cores</h2>
+    <nav class="navbar navbar-expand-sm navbar-light bg-info">
+        <!-- Logo -->
+        <a href="" class="navbar-brand">Chalé Hotel</a>
+
+        <!-- navegacao -->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Serviços</a>
+            </li>
+        </ul>
+    </nav>
+
+    <br><br>
+
+    <!--Alinhamentos
+    opções: fixed-top, fixed-bottom, sticky
+    -->
+    <h2>Alinhamentos</h2>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+        <!-- Logo -->
+        <a href="" class="navbar-brand">Chalé Hotel</a>
+
+        <!-- navegacao -->
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Serviços</a>
+            </li>
+        </ul>
+    </nav>
+
+    <br><br> --------------- Lista --------------------
+
+    <!-- Listas -->
+    <ul class="list-group list-group-numbered">
+        <li class="list-group-item">Meu item de lista </li>
+        <li class="list-group-item">Meu item de lista </li>
+        <li class="list-group-item">Meu item de lista </li>
+        <li class="list-group-item">Meu item de lista </li>
+    </ul>
+    <br><br>
+
+    <!-- Listas com classe flush -->
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Meu item de lista 5</li>
+        <li class="list-group-item">Meu item de lista 6</li>
+        <li class="list-group-item">Meu item de lista 7</li>
+        <li class="list-group-item">Meu item de lista 8</li>
+    </ul>
+    <br><br>
+
+    <!-- Listas com links -->
+    <ul class="list-group fw-bold">
+        <a href="#" class="list-group-item">Meu item de lista 9</a>
+        <a href="#" class="list-group-item">Meu item de lista 10</a>
+        <a href="#" class="list-group-item">Meu item de lista 11</a>
+        <a href="#" class="list-group-item">Meu item de lista 12</a>
+    </ul>
+    <br><br>
+
+    <!-- Listas com classes contextuais 
+        classe: list-group-item-<opcoes>
+        opções: primary, secondary, 
+          success, info,    warning, danger, light, dark
+    -->
+    <ul class="list-group ">
+        <li class="list-group-item- ">Lista normal</li>
+        <li class="list-group-item-primary ">Lista primary</li>
+        <li class="list-group-item-secondary">Lista secondary</li>
+        <li class="list-group-item-success">Lista success</li>
+        <li class="list-group-item-info">Lista info</li>
+        <li class="list-group-item-warning">Lista warning</li>
+        <li class="list-group-item-danger">Lista danger</li>
+        <li class="list-group-item-light">Lista light</li>
+        <li class="list-group-item-dark">Lista dark</li>
+    </ul>
+    <br><br>
+
+    <!-- Badge 
+        <span classe= badge bg-<opcoes> rounded-pill
+        opções: primary, secondary, success, info,
+                warning, danger, light, dark
+    -->
+    <ul class="list-group">
+        <li class="list-group-item">
+            Caixa de entrada
+            <span class="badge bg-info">
+            120</span></li>
+        <li class="list-group-item">
+            Meu item de lista 2</li>
+        <li class="list-group-item">
+            Rascunhos
+            <span class="badge bg-danger">
+        5</span></li>
+        <li class="list-group-item">
+            Meu item de lista 4</li>
+    </ul>
+    <br><br>
+
+    <!-- Breadcrumb 
+      listas ordenadas-->
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">Home</li>
+    </ol>
+
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="">Home</a>
+        </li>
+        <li class="breadcrumb-item">Notícias</li>
+    </ol>
+
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="#">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+            <a href="#">Usuários</a>
+        </li>
+        <li class="breadcrumb-item">Silvan Miller</li>
+    </ol>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Library</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+    </nav>
+    <br><br>
+
+    <br><br> --------------- Formulários --------------------
+    <!-- formulários 
+        classe: form-control-<opcoes>
+        opções: sm, lg
+    -->
+    <form>
+        <!-- caixas de texto -->
+        <div class="form-group">
+            <label for="usuario">Usuário</label>
+            <input class="form-control form-control-sm" type="text" id="usuario" placeholder="Digite seu usuário">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input class="form-control form-control-lg" type="email" id="email" placeholder="Digite seu email" readonly>
+            <small class="form-text">Email será validado</small>
+        </div>
+
+        <!-- select -->
+        <div class="form-group">
+            <label for="estados">Estados</label>
+            <select class="form-control" id="estados">
+                <option>Rio de Janeiro</option>
+                <option>Espirito Santos</option>
+                <option>Minas Gerais</option>
+                <option>...</option>
+            </select>
+        </div>
+        <br><br>
+
+        <!-- textarea -->
+        <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="3"></textarea>
+        </div>
+        <br><br>
+
+        <!-- file input -->
+        <div class="form-group">
+            <label for="arquivo" class="form-label">Arquivo</label>
+            <input class="form-control" type="file" id="arquivo">
+        </div>
+        <br><br>
+
+        <!-- custom file input -->
+        <div class="form-group">
+            <label class="form-label">
+              Selecione arquivo</label>
+            <input class="custom-file-input" type="file" id="arquivo">
+        </div>
+        <br><br>
+
+        <div class="mb-3">
+            <label for="formFile" class="form-label">
+              Default file input example</label>
+            <input class="form-control" type="file" id="formFile">
+        </div>
+        <br><br>
+
+        <div class="input-group mb-3">
+            <input type="file" class="form-control" id="inputGroupFile02">
+            <label class="input-group-text" for="inputGroupFile02">Upload</label>
+        </div>
+        <br><br>
+
+        <!-- range -->
+        <div class="form-group">
+            <label id="range">Satisfação</label>
+            <input class="custom-range" type="range" id="range" min="1" max="5">
+        </div>
+        <br>
+
+        <div class="bg-white">
+            <label for="customRange1" class="form-label">Satisfação</label>
+            <input type="range" class="form-range" id="customRange1">
+        </div>
+        <br>
+
+        <!-- button -->
+        <input class="btn btn-primary" type="submit" value="Salvar">
+        <br><br>
+
+
+        <!---Switches-->
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Entrada caixa de seleção do interruptor padrão</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">
+              Entrada caixa de seleção chave marcada</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" disabled>
+            <label class="form-check-label" for="flexSwitchCheckDisabled">
+              Entrada caixa de seleção do interruptor desativada</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled" checked disabled>
+            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">
+              Entrada caixa de seleção do interruptor desabilitada</label>
+        </div>
+    </form>
+    <br><br>
+
+    <!-- Formulário inline -->
+    <form class="form-inline row g-2 ">
+        <input class="form-control me-2" type="text" placeholder="Digite seu usuário">
+        <input class="form-control me-2" type="password" placeholder="Digite sua senha">
+        <input class="btn btn-primary" type="submit" value="Logar">
+    </form>
+    <br><br>
+    <h1>Esse Aqui </h1>
+    <div class="form-floating mb-3 ">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Digite seu e-mail </label>
+    </div>
+    <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Senha</label>
+    </div>
+    <br><br>
+
+    <!-- 
+    Validação de formulário 
+    Classes: is-valid, is-invalid, invalid-feedback, valid-feedback
+    -->
+    <form class="row g-2 email">
+        <div class="form-group">
+            <label for="email-usuario">email</label>
+            <input class="form-control is-valid" type="text" id="email-usuario" placeholder="Digite seu e-mail">
+            <div class="valid-feedback">
+                Email válido
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="senha-usuario">Senha</label>
+            <input class="form-control is-invalid" type="email" id="senha-usuario" placeholder="Digite sua senha">
+            <div class="invalid-feedback">
+                Senha inválida
+            </div>
+        </div>
+    </form>
+    <input class="btn btn-primary" type="submit" value="Logar">
+    <br><br> --------------- Formulários input --------------------
+    <form class="email2 row g-2">
+        <h2>Grupo prepend</h2>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+            </div>
+            <input class="form-control" type="text" placeholder="e-mail">
+        </div>
+        ----------
+        <h2>Grupo append</h2>
+        <div class="input-group">
+            <input class="form-control" type="text" placeholder="e-mail">
+            <div class="input-group-append">
+                <span class="input-group-text">@site.com</span>
+            </div>
+        </div>
+
+        <h2>URL customizada</h2>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                   https://site.com/usuario/
+               </span>
+            </div>
+            <input class="form-control" type="text" placeholder="Digite seu usuário">
+        </div>
+
+        <h2>Moeda</h2>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">$</span>
+            </div>
+            <input class="form-control" type="text" placeholder="Digite um valor">
+            <div class="input-group-append">
+                <span class="input-group-text">,00</span>
+            </div>
+        </div>
+
+        <!--
+        type: checkbox / radio
+        -->
+        <h2>Checkbox / radio</h2>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <input type="radio">
+                </div>
+            </div>
+            <input type="text" class="form-control">
+        </div>
+
+        <h2>Múltiplos inputs</h2>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">nome/e-mail</span>
+            </div>
+            <input class="form-control" type="text" placeholder="e-mail">
+            <input class="form-control" type="password" placeholder="senha">
+        </div>
+
+        <h2>Pesquisas</h2>
+        <div class="input-group">
+            <input class="form-control" type="text" placeholder="Pesquisar">
+            <div class="input-group-append">
+                <button type="button" class=" btn btn-success">Pesquisar</button>
+            </div>
+        </div>
+    </form>
+    <br><br> --------------- Alertas e barra de progresso --------------------
+    <h2>Alertas</h2>
+    <div class="alert alert-primary">
+        <strong>Primary</strong> você tem uma postagem pendente!
+    </div>
+    <div class="alert alert-secondary">
+        <strong>Secondary</strong> você tem uma postagem pendente!
+    </div>
+
+
+    <h2>Alerta com botão fechar</h2>
+    <div class="alert alert-success alert-dismissible">
+        <button class="btn-close" type="button" data-dismiss="alert">
+      </button>
+        <strong>Fechar</strong> Alerta com botão fechar
+    </div>
+    <div class="alert alert-warning 
+         alert-dismissible fade show" role="alert">
+        <strong>Fechar</strong> Alerta com botão fechar.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
     <br><br>
 
 
+    <h2>Alerta com mais conteúdos</h2>
+    <div class="alert alert-warning 
+         alert-dismissible fade show" role="alert">
+
+        <h4><strong>Título</strong></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a metus in purus malesuada vulputate. Sed lacinia quam massa, eu consectetur tortor faucibus sed.</p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a metus in purus malesuada vulputate. Sed lacinia quam massa, eu consectetur tortor faucibus sed.</p>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <br><br> --------------------------------------
+
+    <h2>Barra de progresso</h2>
+    <div class="progress email">
+        <div class="progress-bar w-85">75%</div>
+    </div>
+    <br>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">25%</div>
+    </div>
+    <br>
+
+    <h2>Altura</h2>
+    <div class="progress" style="height: 1px;">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <br>
+    <div class="progress" style="height: 20px;">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+    </div>
+
+
+    <h2>Listrado</h2>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+    </div>
+
+    <h2>Animado</h2>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">95%</div>
+    </div>
+
+
+    <h2>Múltiplas barras</h2>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+        <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+        <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+    </div>
+    <br><br> --------------- Tabelas e Paginação --------------------
+    <h2>Tabelas: table</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Produto</th>
+                <th>Marca</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>00001</td>
+                <td>Iphone X</td>
+                <td>Apple</td>
+                <td>R$ 6.999</td>
+            </tr>
+            <tr>
+                <td>00002</td>
+                <td>Nexus 5</td>
+                <td>LG</td>
+                <td>R$ 999</td>
+            </tr>
+            <tr>
+                <td>00003</td>
+                <td>Notebook VAIO</td>
+                <td>Sony</td>
+                <td>R$ 1.999</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Tabela escura: table-dark</h2>
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Produto</th>
+                <th>Marca</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>00001</td>
+                <td>Iphone X</td>
+                <td>Apple</td>
+                <td>R$ 6.999</td>
+            </tr>
+            <tr>
+                <td>00002</td>
+                <td>Nexus 5</td>
+                <td>LG</td>
+                <td>R$ 999</td>
+            </tr>
+            <tr>
+                <td>00003</td>
+                <td>Notebook VAIO</td>
+                <td>Sony</td>
+                <td>R$ 1.999</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Tabela com cabeçalho escuro: thead-dark</h2>
+    <table class="table">
+        <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Produto</th>
+                <th>Marca</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>00001</td>
+                <td>Iphone X</td>
+                <td>Apple</td>
+                <td>R$ 6.999</td>
+            </tr>
+            <tr>
+                <td>00002</td>
+                <td>Nexus 5</td>
+                <td>LG</td>
+                <td>R$ 999</td>
+            </tr>
+            <tr>
+                <td>00003</td>
+                <td>Notebook VAIO</td>
+                <td>Sony</td>
+                <td>R$ 1.999</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h2>Tabela com formatações: table-striped, table-bordered, table-borderless</h2>
+    <table class="table 
+            table-striped table-borderless">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Produto</th>
+                <th>Marca</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>00001</td>
+                <td>Iphone X</td>
+                <td>Apple</td>
+                <td>R$ 6.999</td>
+            </tr>
+            <tr>
+                <td>00002</td>
+                <td>Nexus 5</td>
+                <td>LG</td>
+                <td>R$ 999</td>
+            </tr>
+            <tr>
+                <td>00003</td>
+                <td>Notebook VAIO</td>
+                <td>Sony</td>
+                <td>R$ 1.999</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h2>Classes contextuais: table-success, table-danger, table...</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Produto</th>
+                <th>Marca</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr class="table-danger">
+                <td>00001</td>
+                <td>Iphone X</td>
+                <td>Apple</td>
+                <td>R$ 6.999</td>
+            </tr>
+            <tr>
+                <td>00002</td>
+                <td>Nexus 5</td>
+                <td>LG</td>
+                <td>R$ 999</td>
+            </tr>
+            <tr>
+                <td>00003</td>
+                <td>Notebook VAIO</td>
+                <td>Sony</td>
+                <td>R$ 1.999</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h2>Tabela pequena: table-sm</h2>
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Produto</th>
+                <th>Marca</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>00001</td>
+                <td>Iphone X</td>
+                <td>Apple</td>
+                <td>R$ 6.999</td>
+            </tr>
+            <tr>
+                <td>00002</td>
+                <td>Nexus 5</td>
+                <td>LG</td>
+                <td>R$ 999</td>
+            </tr>
+            <tr>
+                <td>00003</td>
+                <td>Notebook VAIO</td>
+                <td>Sony</td>
+                <td>R$ 1.999</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h2>Tabela responsiva: table-responsive</h2>
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Produto</th>
+                    <th>Descrição</th>
+                    <th>Marca</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>00001</td>
+                    <td>Iphone X</td>
+                    <td>Lorem ipsum</td>
+                    <td>Apple</td>
+                    <td>R$ 6.999</td>
+                </tr>
+                <tr>
+                    <td>00002</td>
+                    <td>Nexus 5</td>
+                    <td>Lorem ipsum</td>
+                    <td>LG</td>
+                    <td>R$ 999</td>
+                </tr>
+                <tr>
+                    <td>00003</td>
+                    <td>Notebook VAIO</td>
+                    <td>Lorem ipsum</td>
+                    <td>Sony</td>
+                    <td>R$ 1.999</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <br> -----------------------
+    <br>
+
+    <h2>Paginação: pagination, page-item, page-link - active, disabled</h2>
+    <nav>
+        <ul class="pagination">
+            <li class="page-item disabled">
+                <a href="" class="page-link">Anterior</a>
+            </li>
+            <li class="page-item active">
+                <a href="" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="" class="page-link">Próximo</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h2>Alinhamento: justify-content-ALINHAMENTO(center, end) </h2>
+    <nav>
+        <ul class="pagination justify-content-end">
+            <li class="page-item disabled">
+                <a href="" class="page-link">Anterior</a>
+            </li>
+            <li class="page-item active">
+                <a href="" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="" class="page-link">Próximo</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <h2>Tamanho: pagination-TAMANHO(sm, lg) </h2>
+    <nav>
+        <ul class="pagination pagination-sm">
+            <li class="page-item disabled">
+                <a href="" class="page-link">Anterior</a>
+            </li>
+            <li class="page-item active">
+                <a href="" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="" class="page-link">Próximo</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <h2>Setas </h2>
+    <nav>
+        <ul class="pagination pagination">
+            <li class="page-item">
+                <a href="" class="page-link">
+                    <span>&laquo;</span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+            </li>
+            <li class="page-item active">
+                <a href="" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="" class="page-link">
+                    <span>&raquo;</span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <br><br>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <br><br>
+
+    <br><br> --------------- Cartoes - Cards --------------------
+    <h3 class="border-bottom">Cartão simples</h3>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Título do cartão</h4>
+            <h6 class="card-subtitle">Subtítulo do cartão</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+            <a class="btn btn-outline-primary" href="">Leia mais</a>
+        </div>
+    </div>
+
+    <br><br>
+
+    <h3 class="border-bottom">Cartão com imagem</h3>
+    <div class="card">
+        <img class="card-img-top" src="https://source.unsplash.com/random/600x200">
+        <div class="card-body">
+            <h4 class="card-title">Título do cartão</h4>
+            <h6 class="card-subtitle">Subtítulo do cartão</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+            <a class="btn btn-outline-primary" href="">Leia mais</a>
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <h3 class="border-bottom">Cartão com imagem sobreposta</h3>
+    <div class="card text-white">
+        <img class="card-img" src="https://source.unsplash.com/random/600x250">
+        <div class="card-img-overlay">
+            <h4 class="card-title">Título do cartão</h4>
+            <h6 class="card-subtitle">Subtítulo do cartão</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+            <a class="btn btn-outline-light" href="">Leia mais</a>
+        </div>
+    </div>
+    <br><br>
+    <br><br>
+
+    <h3 class="border-bottom">Cartão com cabeçalho</h3>
+    <div class="card">
+        <div class="card-header">
+            Cabeçalho do cartão
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Título do cartão</h4>
+            <h6 class="card-subtitle">Subtítulo do cartão</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+            <a class="btn btn-outline-danger" href="">Leia mais</a>
+        </div>
+    </div>
+
+    <br><br>
+
+    <h3 class="border-bottom">Cartão com cabeçalho e rodapé / Alinhamento</h3>
+    <div class="card text-right">
+        <div class="card-header">
+            Cabeçalho do cartão
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Título do cartão</h4>
+            <h6 class="card-subtitle">Subtítulo do cartão</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+            <a class="btn btn-outline-danger" href="">Leia mais</a>
+        </div>
+        <div class="card-footer">
+            Rodapé do cartão
+        </div>
+    </div>
+
+    <br><br>
+
+    <h3 class="border-bottom">Cartão com navegação</h3>
+    <div class="card">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="">Link 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="">Link 3</a>
+                </li>
+            </ul>
+        </div>
+        <div class="card-body">
+            <h4>Título do cartão</h4>
+            <h6>Subtítulo do cartão</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+            <a class="btn btn-outline-danger btn-block" href="">Leia mais</a>
+        </div>
+    </div>
+
+    <br><br>
+
+    <h3 class="border-bottom">Cartão com cores de fundo</h3>
+    <div class="card bg-primary text-white mb-2">
+        <div class="card-header">
+            Cabeçalho do cartão
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Título do cartão</h4>
+            <h6 class="card-subtitle">Subtítulo do cartão</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+            <a class="btn btn-outline-light" href="">Leia mais</a>
+        </div>
+    </div>
+
+    <div class="card bg-danger text-white mb-2">
+        <div class="card-header">
+            Cabeçalho do cartão
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Título do cartão</h4>
+            <h6 class="card-subtitle">Subtítulo do cartão</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+            <a class="btn btn-outline-light" href="">Leia mais</a>
+        </div>
+    </div>
+
+    <br><br>
+
+    <h3 class="border-bottom">Cartão com bordas</h3>
+    <div class="card border-danger mb-2">
+        <div class="card-body">
+            <h4 class="card-title">Título do cartão</h4>
+            <h6 class="card-subtitle">Subtítulo do cartão</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+            <a class="btn btn-outline-light" href="">Leia mais</a>
+        </div>
+    </div>
+
+    <br><br>
+
+    <h3 class="border-bottom">Cartão com colunas</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <!-- inicio cartao -->
+        <div class="card text-white">
+            <img class="card-img" src="https://source.unsplash.com/random/600x350">
+            <div class="card-img-overlay">
+                <h4 class="card-title">Título do cartão</h4>
+                <h6 class="card-subtitle">Subtítulo do cartão</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a class="btn btn-outline-light" href="">Leia mais</a>
+            </div>
+        </div>
+        <!-- fim cartao -->
+
+
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Título do cartão</h4>
+                <h6 class="card-subtitle">Subtítulo do cartão</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+                <a class="btn btn-outline-primary" href="">Leia mais</a>
+            </div>
+        </div>
+        <!-- fim cartao -->
+
+        <div class="card bg-primary text-white">
+            <div class="card-header">
+                Cabeçalho do cartão
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">Título do cartão</h4>
+                <h6 class="card-subtitle">Subtítulo do cartão</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+                <a class="btn btn-outline-light" href="">Leia mais</a>
+            </div>
+        </div>
+        <!-- fim cartao -->
+
+        <div class="card">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="">Link 3</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <h4>Título do cartão</h4>
+                <h6>Subtítulo do cartão</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+                <a class="btn btn-outline-danger btn-block" href="">Leia mais</a>
+            </div>
+        </div>
+        <!-- fim cartao -->
+
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Título do cartão</h4>
+                <h6 class="card-subtitle">Subtítulo do cartão</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+                <a class="btn btn-outline-primary" href="">Leia mais</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Título do cartão</h4>
+                <h6 class="card-subtitle">Subtítulo do cartão</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+                <a class="btn btn-outline-primary" href="">Leia mais</a>
+            </div>
+        </div>
+
+    </div>
 
 
 
 
+    <br><br> ------------------------------------
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <img src="https://source.unsplash.com/random/450x900" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="https://source.unsplash.com/random/600x350" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="https://source.unsplash.com/random/600x350" class="card-img-bottom" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="https://source.unsplash.com/random/600x350" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional contentis. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="https://source.unsplash.com/random/600x350" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br> --------------- Jumbotron ---------------------
+
+    <h3 class="border-bottom">Jumbotron</h3>
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container">
+            <h1 class="display-4">Música para todos.</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a class="btn btn-primary btn-lg" href="">Leia mais</a>
+        </div>
+    </div>
+
+    <h3 class="border-bottom">Estrutura para imagens</h3>
+    <div class="media">
+        <img class="me-3" src="https://source.unsplash.com/random/60x60">
+        <div class="media-body">
+            <h5>Título do conteúdo</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+        </div>
+    </div>
+
+    <br><br>
+
+    <h3 class="border-bottom">Alinhamentos: align-self-ALINHAMENTO (start, center, end) </h3>
+    <div class="media">
+        <img class="me-3 align-content-center" src="https://source.unsplash.com/random/60x60">
+        <div class="media-body">
+            <h5>Título do conteúdo</h5>
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+        </div>
 
 
+        <h3 class="border-bottom">Listas com imagens</h3>
+        <ul class="list-unstyled">
 
+            <li class="media">
+                <img class="me-2 align-content-center" src="https://source.unsplash.com/random/80x80">
+                <div class="media-body">
+                    <h5>Título do conteúdo</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+                </div>
+            </li>
+        </ul>
+        <br><br> --------------- Font awesome---------------------
 
+        <h3 class="border-bottom">Font awesome</h3>
+        <i class="fas fa-battery-half display-3 text-danger"></i>
+        <span class="fas fa-bomb display-3 text-warning"></span>
+
+        <button class="btn btn-danger btn-lg">
+  <i class="fas fa-bomb"></i>
+          Clique aqui
+  </button>
+
+        <h3 class="border-bottom">Iconic</h3>
+        <span class="oi oi-bell display-3 text-danger"></span>
+        <i class="oi oi-clock display-3 text-success"></i>
+
+        <button class="btn btn-dark btn-lg">
+        <i class="oi oi-clock"></i>
+  </button>
+        <br><br> --------------- GRID ---------------------
+
+        <div class="container marcador-container">
+
+            <div class="row">
+
+                <div class="marcador col-md-6 col-xl-4">
+
+                    <h2>Lorem ipsum dolorem sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper ullamcorper lorem eu tempor. Mauris ut ultricies diam, eu vestibulum lectus.</p>
+                    <button class="btn btn-warning">Leia mais</button>
+
+                </div>
+
+                <div class="marcador col-md-6 col-xl-4">
+
+                    <h2>Lorem ipsum dolorem sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper ullamcorper lorem eu tempor. Mauris ut ultricies diam, eu vestibulum lectus.</p>
+                    <button class="btn btn-warning">Leia mais</button>
+
+                </div>
+
+                <div class="marcador col-md-6 col-xl-4">
+
+                    <h2>Lorem ipsum dolorem sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper ullamcorper lorem eu tempor. Mauris ut ultricies diam, eu vestibulum lectus.</p>
+                    <button class="btn btn-warning">Leia mais</button>
+
+                </div>
+
+            </div>
+
+        </div>
+        <br><br>
+        <br>
+        <br>--------------- Configuração GRID ---------------------
+
+        <div class="container marcador-container">
+
+            <h2>Largura fixa</h2>
+            <div class="row">
+                <div class="marcador col">área 1</div>
+                <div class="marcador col">área 2</div>
+                <div class="marcador col">área 3</div>
+                <div class="marcador col">área 4</div>
+            </div>
+
+            <h2>Largura automática (auto-layout)</h2>
+            <div class="row">
+                <div class="marcador col">área 1</div>
+                <div class="marcador col-4">área 2</div>
+                <div class="marcador col-6">área 3</div>
+            </div>
+
+            <h2>Largura igual empilhada</h2>
+            <div class="row">
+                <div class="marcador col-sm">área 1</div>
+                <div class="marcador col-sm">área 2</div>
+                <div class="marcador col-sm">área 3</div>
+            </div>
+
+            <h2>Ordenando</h2>
+            <div class="row">
+                <div class="marcador col-md-4 order-3">área 1</div>
+                <div class="marcador col-md-4 order-1">área 2</div>
+                <div class="marcador col-md-4 order-2">área 3</div>
+            </div>
+
+            <h2>offset</h2>
+            <div class="row">
+                <div class="marcador col-md-6 offset-md-3">Login...</div>
+            </div>
+
+            <h2>offset múltiplos alinhamentos</h2>
+            <div class="row">
+                <div class="marcador col-md-3">Conteúdo 1</div>
+                <div class="marcador col-md-3 offset-md-6">Conteúdo 2</div>
+            </div>
+
+            <h2>Aninhamento</h2>
+            <div class="row">
+                <div class="col-md-6" style="border:1px solid blue">
+                    col-md-6
+                    <div class="row">
+                        <div class="col-md-6 marcador">Cont. 1</div>
+                        <div class="col-md-5 marcador">Cont. 2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br> --------------- Alinhamento GRID ---------------------
+        <div class="container">
+
+            <h2>Alinhamento horizontal (align-items-ALINHAMENTO: start, center, end)</h2>
+            <div class="row marcador align-items-start">
+                <div class="col borda">Área 1</div>
+                <div class="col borda">Área 2</div>
+                <div class="col borda">Área 3</div>
+            </div>
+
+            <h2>Alinhamento vertical individual (align-self-ALINHAMENTO: start, center, end)</h2>
+            <div class="marcador row">
+                <div class="col borda align-self-start">Área 1</div>
+                <div class="col borda align-self-center">Área 2</div>
+                <div class="col borda align-self-end">Área 3</div>
+            </div>
+
+            <h2>Alinhamento horizontal colunas (justify-content-ALINHAMENTO: start, center, end)</h2>
+            <div class="row justify-content-end">
+                <div class="marcador col-2">Área 1</div>
+                <div class="marcador col-2">Área 2</div>
+                <div class="marcador col-2">Área 3</div>
+            </div>
+
+            <h2>Distribuição (justify-content-ALINHAMENTO: around, between, end)</h2>
+            <div class="row borda justify-content-between">
+                <div class="marcador col-2">Área 1</div>
+                <div class="marcador col-2">Área 2</div>
+                <div class="marcador col-2">Área 3</div>
+                <div class="marcador col-2">Área 4</div>
+            </div>
+
+            <h2>Removendo espaçamento</h2>
+            <div class="row g-0">
+                <div class="borda col-2">Área 1</div>
+                <div class="borda col-2">Área 2</div>
+                <div class="borda col-2">Área 3</div>
+            </div>
+        </div>
+        <br><br> --------------- Classes do Flexbox ---------------------
+        <div class="container">
+
+            <h2>Flex container e flex itens (d-flex, flex-row, flex-column, flex-row-reverse)</h2>
+            <div class="caixa d-flex flex-column">
+                <div class="item">Flex item 1</div>
+                <div class="item">Flex item 2</div>
+                <div class="item">Flex item 3</div>
+            </div>
+            <br><br>
+
+            <h2>Alinhamento horizontal: justify-content-ALINHAMENTO (start, center, end, around e between)</h2>
+            <div class="caixa d-flex justify-content-around">
+                <div class="item">Flex item 1</div>
+                <div class="item">Flex item 2</div>
+                <div class="item">Flex item 3</div>
+            </div>
+            <br><br>
+
+            <h2>Colunas (d-flex, flex-column, flex-column-reverse)</h2>
+            <div class="caixa d-flex flex-column">
+                <div class="item">Flex item 1</div>
+                <div class="item">Flex item 2</div>
+                <div class="item">Flex item 3</div>
+            </div>
+            <br><br>
+
+            <h2>Alinhamento vertical: align-items-ALINHAMENTO (start, center, end, baseline e stretch)</h2>
+            <div class="caixa d-flex align-items-center">
+                <div class="item" style="padding-top: 30px">Flex item 1</div>
+                <div class="item">Flex item 2</div>
+                <div class="item" style="padding-top: 50px">Flex item 3</div>
+            </div>
+            <br><br>
+
+            <h2>Alinhamento self: align-self-ALINHAMENTO (start, center, end, baseline e stretch)</h2>
+            <div class="caixa d-flex">
+                <div class="item align-self-start">Flex item 1</div>
+                <div class="item align-self-center">Flex item 2</div>
+                <div class="item align-self-end">Flex item 3</div>
+                <div class="item align-self-baseline">Flex item 4</div>
+                <div class="item align-self-stretch">Flex item 5</div>
+            </div>
+        </div>
+
+        <br><br> --------------- MARGIN AUTO E WRAP ---------------------
+        <div class="container">
+
+            <h2>Margin right/left auto (ms-auto, me-auto)</h2>
+            <div class="caixa d-flex">
+                <div class="item me-2">Flex item 1</div>
+                <div class="item me-4">Flex item 2</div>
+                <div class="item">Flex item 3</div>
+            </div>
+            <br><br>
+
+            <h2>Margin bottom/top auto (mb-auto, mt-auto)</h2>
+            <div class="caixa d-flex flex-column">
+                <div class="item mb-2">Flex item 1</div>
+                <div class="item">Flex item 2</div>
+                <div class="item mb-5">Flex item 3</div>
+            </div>
+            <br><br>
+
+            <h2>Wrap (flex-wrap, flex-nowrap)</h2>
+            <div class="caixa d-flex flex-nowrap">
+                <div class="item">Flex item 1</div>
+                <div class="item">Flex item 2</div>
+                <div class="item">Flex item 3</div>
+                <div class="item">Flex item 4</div>
+                <div class="item">Flex item 5</div>
+                <div class="item">Flex item 6</div>
+                <div class="item">Flex item 7</div>
+                <div class="item">Flex item 8</div>
+                <div class="item">Flex item 9</div>
+                <div class="item">Flex item 10</div>
+                <div class="item">Flex item 11</div>
+                <div class="item">Flex item 12</div>
+                <div class="item">Flex item 13</div>
+                <div class="item">Flex item 14</div>
+                <div class="item">Flex item 15</div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 
 </html>
