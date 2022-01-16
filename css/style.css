@@ -2,3 +2,57 @@ body {
     margin-bottom: 200px;
     padding: 18px;
 }
+
+.largura {
+    margin-bottom: 200;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.altura {
+    height: 300px;
+    border: 1px solid gray;
+}
+
+.email {
+    width: 500px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.email2 {
+    width: 500px;
+    height: 800px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+}
+
+.marcador {
+    background: #fe9d9d;
+    border: 1px solid #f94646;
+}
+
+.marcador-container {
+    background: #5bf946;
+    border: 1px solid #36ae26;
+}
+
+.borda {
+    border: 1px solid blue;
+}
+
+.caixa {
+    background: #f5f5f5;
+    height: 200px;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    body {
+        background: gainsboro;
+    }
+}
